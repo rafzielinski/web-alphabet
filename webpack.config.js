@@ -28,6 +28,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
           "css-loader",
           "sass-loader"
         ]
+      },
+      {
+        test: /\.html$/i,
+        loader: 'html-loader'
       }
     ]
   },
